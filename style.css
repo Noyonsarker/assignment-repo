@@ -52,6 +52,12 @@ i.fas.fa-arrow-right {
     border-radius: 50px;
     border: none;
 }
+.header-image:hover {
+    transform: scale(1.5) rotate(
+5deg
+);
+    transition: transform 5s;
+}
 /* finish header css */
 /* start collection css */
 .section-title {
@@ -150,30 +156,7 @@ i.fas.fa-thumbs-up {
     padding: 5px;
 }
 /* finish fotter css */
-/* Media Queries */
 
-/* Mobile Devices */
+ 
 
-@media only screen and (max-width:688px) {
-    .container{
-        width: 100%;
-    }
-.header-info, .collections, .selection{ 
-    grid-template-columns: repeat(1, 1fr);
-}
-.collection, .my-selection .assignment-footer{
-    flex-direction: column;
-}
-@media only screen and (min-width:688px) and (max-width:992px){
-    .container{
-        width: 100%;
-    }
-    .collections, .selection{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    
-}
- 
-}
- 
  
